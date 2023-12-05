@@ -1,9 +1,16 @@
 <script>
-
+import AppParteSuperiore from "./components/AppParteSuperiore.vue"
+export default {
+  components:{
+    AppParteSuperiore,
+  }
+ 
+  
+}
 </script>
 
 <template>
-  <h1>ciao bro</h1>
+ <AppParteSuperiore/>
 </template>
 
 <style lang="scss">
