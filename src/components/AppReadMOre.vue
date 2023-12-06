@@ -13,7 +13,7 @@ export default {
     <div>
         <h2>LimiTless learnig, more possibilities</h2>
         <p>Online courses open the opportunity for learnig to almost anyone regarldless of their scheduling commitens.</p>
-        <btn/>
+        <btn text="READ MORE"/>
     </div>
 </section>
 </template>

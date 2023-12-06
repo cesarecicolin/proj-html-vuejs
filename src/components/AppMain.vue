@@ -5,6 +5,7 @@ import AppReadMOre from "./AppReadMOre.vue"
 import RecentCourses from './RecentCourses.vue';
 import NewsLetter from "./NewsLetter.vue"
 import PopularCors from "./PopularCors.vue"
+import InstructorBusiness from './InstructorBusiness.vue';
 
 export default {
     components:{
@@ -13,8 +14,8 @@ export default {
     RecentCourses,
     AppCourses,
     NewsLetter,
-    PopularCors
-
+    PopularCors,
+    InstructorBusiness
 }
 }
 </script>
@@ -25,6 +26,7 @@ export default {
     <AppCourses/>
     <NewsLetter/>
     <PopularCors/>
+    <InstructorBusiness/>
 </template>
 <style lang="scss" scoped>
 

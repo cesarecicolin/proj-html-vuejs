@@ -30,7 +30,7 @@ export default {
         </ul>
         <ul class="d-flex align-items-center">
             <li class="ms-3"><a href=""><i class="fa-regular fa-user"></i> log in</a></li>
-            <li class="ms-3"><btn/></li>
+            <li class="ms-3"><btn text="SIGN UP"/></li>
             <li class="ms-3"><i class="fa-regular fa-bookmark"></i></li>
         </ul>
 

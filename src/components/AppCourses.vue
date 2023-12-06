@@ -137,7 +137,7 @@ export default {
         </div>
     </div>
     <div class="d-flex justify-content-center mt-5">
-         <btn class="text-center d-block"/>
+         <btn text="SHOW ALL" class="text-center d-block"/>
     </div>
    
 </template>
