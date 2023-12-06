@@ -1,12 +1,12 @@
 <script>
 import AppParteSuperiore from "./components/AppParteSuperiore.vue"
 import AppHero from "./components/AppHero.vue"
-import AppMid from "./components/AppMid.vue"
+import AppMain from "./components/AppMain.vue"
 export default {
   components:{
     AppParteSuperiore,
     AppHero,
-    AppMid
+    AppMain
   }
  
   
@@ -16,7 +16,8 @@ export default {
 <template>
  <AppParteSuperiore/>
  <AppHero/>
- <AppMid/>
+ <AppMain/>
+ 
 </template>
 
 <style lang="scss">

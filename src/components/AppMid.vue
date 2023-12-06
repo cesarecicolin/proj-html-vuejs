@@ -105,4 +105,5 @@ img {
     width: calc(80% / 5);
 
 }
+
 </style>
