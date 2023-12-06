@@ -115,8 +115,8 @@ export default {
 }
 </script>
 <template>
-    
-    <div class="row ms-5 mt-5">
+    <section>
+        <div class="row ms-5 mt-5">
         <div class="card  my-card ms-2 mt-5" v-for="card in courses ">
             <img :src="getImagePath(card.img)" class="card-img-top" alt="">
             <div class="card-body">
@@ -139,10 +139,14 @@ export default {
     <div class="d-flex justify-content-center mt-5">
          <btn text="SHOW ALL" class="text-center d-block"/>
     </div>
+    </section>
+    
    
 </template>
 <style lang="scss" scoped>
 @use "../style/partials/mixin" as *;
+
+
 img {
     width: 100%;
 }

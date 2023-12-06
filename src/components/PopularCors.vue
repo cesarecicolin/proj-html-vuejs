@@ -72,8 +72,8 @@ export default {
 </script>
 <template>
     <section>
-        <div class="text-center mt-5">
-            <h2>Popular Courses</h2>
+        <div class="text-center ">
+            <h2 class="pt-4">Popular Courses</h2>
             <p>Discover our most popular courses for self learnig</p>
         </div>
         <div>
@@ -107,6 +107,7 @@ export default {
 <style lang="scss" scoped>
 @use "../style/partials/mixin" as *;
 
+section{background-color: lightgray;}
 img {
     width: 100%;
 }
@@ -133,6 +134,7 @@ button{padding: .5rem 1rem;
 background-color: white;
 border-color: lightgray;
 color: rgba($color: #000000, $alpha: .5);
+margin-bottom: 1rem;
 }
 
 </style>
