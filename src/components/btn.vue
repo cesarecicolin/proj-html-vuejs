@@ -1,8 +1,14 @@
 <script>
+
+export default {
+   props:{
+    text: String,
+   }
+}
 </script>
 
 <template>
-    <button>SIGN UP</button>
+    <button>{{ text }}</button>
 </template>
  
 <style lang="scss" scoped>
